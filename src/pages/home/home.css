@@ -1,0 +1,37 @@
+#home-page {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#navigation-bar {
+  width: 100vw;
+  height: 3vh;
+}
+
+#navigation-bar a {
+  text-decoration: none;
+  height: 100%;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#navigation-container {
+  width: 10%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social-icons {
+  font-size: 2rem;
+  color: var(--primary-color);
+}
