@@ -9,7 +9,8 @@
 
 #navigation-bar {
   width: 100vw;
-  height: 3vh;
+  height: 4vh;
+  background-color: var(--primary-color);
 }
 
 #navigation-bar a {
@@ -33,5 +34,5 @@
 
 .social-icons {
   font-size: 2rem;
-  color: var(--primary-color);
+  color: var(--tertiary-color);
 }

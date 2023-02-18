@@ -1,5 +1,6 @@
 import "./home.css";
 import { FaInstagram, FaTwitter, FaLinkedin, FaFacebook } from "react-icons/fa";
+import Header from "../../components/header/header";
 
 export default function Home() {
   return (
@@ -20,6 +21,10 @@ export default function Home() {
           </a>
         </div>
       </nav>
+
+      <Header />
+
+      
     </main>
   );
 }
