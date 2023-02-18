@@ -12,15 +12,7 @@
   height: 5vh;
 }
 
-.button-reusable > * {
-    border: thin solid black;
-}
-
-
 .button-reusable-arrow{
-    margin: 0;
-    padding: 0;
-    height: 100%;
     width: max-content;
     font-size: 2rem;
     display: flex;
