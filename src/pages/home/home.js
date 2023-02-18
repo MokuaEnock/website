@@ -1,5 +1,12 @@
 import "./home.css";
-import { FaInstagram, FaTwitter, FaLinkedin, FaFacebook } from "react-icons/fa";
+import {
+  FaInstagram,
+  FaTwitter,
+  FaPhone,
+  FaEnvelope,
+  FaLinkedin,
+  FaFacebook,
+} from "react-icons/fa";
 import Header from "../../components/header/header";
 
 export default function Home() {
@@ -20,11 +27,20 @@ export default function Home() {
             <FaFacebook className="social-icons" />
           </a>
         </div>
+
+        <div id="navigation-contact">
+          <span>
+            <FaPhone />
+            <p>+254768371270</p>
+          </span>
+          <span>
+            <FaEnvelope />
+            <p>contact@kilimo.africa</p>
+          </span>
+        </div>
       </nav>
 
       <Header />
-
-      
     </main>
   );
 }
