@@ -4,8 +4,8 @@ import Button from "./components/button/button";
 
 function App() {
   return (
-    <div className="App">
-      <Button title="take"/>
+    <div className="App" onClick={() => alert("button clicked")}>
+      <Button text="take" />
     </div>
   );
 }
