@@ -12,3 +12,12 @@
   --tertiary-color: #d8ffc0;
   --font-family: "Roboto", sans-serif;
 }
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: column;
+  align-items: center;
+  justify-content: flex-start;
+}
