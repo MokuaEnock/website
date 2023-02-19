@@ -5,8 +5,11 @@ export default function Footer() {
   return (
     <footer>
       <div className="footer-head">
-        <span></span>
-        <form></form>
+        <span>Subscribe to our weekly newsletter</span>
+        <form>
+          <input placeholder="Enter your Email address" type="email" />
+          <button>Subscribe</button>
+        </form>
       </div>
       <div className="footer-container"></div>
       <div className="footer-foot">

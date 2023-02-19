@@ -10,9 +10,54 @@ footer {
 }
 
 .footer-head {
-  height: 8vh;
-  width: 80%;
+  height: 5vh;
+  width: 100vw;
   border: thin solid white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--tertiary-color);
+}
+
+.footer-head > span {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-color);
+}
+.footer-head > form {
+  border: thin solid var(--primary-color);
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: var(--tertiary-color);
+}
+
+.footer-head > form > input {
+  height: 100%;
+  width: 70%;
+  border: none;
+  text-align: center;
+}
+
+.footer-head > form > button {
+  width: 30%;
+  height: 100%;
+  font-size: 1.2rem;
+  background-color: var(--primary-color);
+  color: var(--tertiary-color);
+  border: none;
+}
+
+input:focus{
+    outline: none;
 }
 
 .footer-container {
