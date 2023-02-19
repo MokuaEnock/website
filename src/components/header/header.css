@@ -8,6 +8,15 @@
   justify-content: space-between;
 }
 
+#header-cont{
+  width: 100vw;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .header-logo {
   width: max-content;
   height: 100%;
@@ -64,6 +73,10 @@ select option:hover {
 .header-info select {
   font-size: 1.5rem;
   color: var(--primary-color);
+}
+
+.header {
+  width: 80%;
 }
 
 .header-logs {

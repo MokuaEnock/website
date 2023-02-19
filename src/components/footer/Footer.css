@@ -8,6 +8,11 @@ footer {
   justify-content: center;
 }
 
+
+#footer-logo{
+    border: thin solid white;
+}
+
 .footer-head {
   height: 5vh;
   width: 100vw;
@@ -98,7 +103,7 @@ input:focus {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   color: var(--tertiary-color);
   font-weight: lighter;
 }

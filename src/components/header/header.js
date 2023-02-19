@@ -11,7 +11,7 @@ export default function Header(props) {
 
   function Head() {
     return (
-      <header className="header">
+      <header className="header" id="header">
         <span className="header-logo">
           <Link to="/">Kilimo.Africa</Link>
         </span>
@@ -57,7 +57,7 @@ export default function Header(props) {
   }
 
   return (
-    <div>
+    <div id="header-cont">
       <Navbar />
       <Head />
     </div>
