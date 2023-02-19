@@ -4,13 +4,10 @@ import "./header.css";
 // import Button from "../button/button";
 
 export default function Header(props) {
-
   function handleSelectChange(event) {
     let url = event.target.value;
     window.location.href = url;
   }
-
-
 
   return (
     <header className="header">
