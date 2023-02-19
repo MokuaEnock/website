@@ -63,7 +63,6 @@ input:focus {
 .footer-container {
   width: 80%;
   height: 40vh;
-  border: thin solid white;
 }
 
 .footer-foot {
@@ -93,7 +92,6 @@ input:focus {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  border: thin solid white;
 }
 
 .footer-container > span > h3 {

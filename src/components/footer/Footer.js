@@ -33,6 +33,7 @@ export default function Footer() {
           <Link to="/events">Events</Link>
         </span>
         <span>
+        <h3></h3>
           <Link to="/faqs">FAQs</Link>
           <Link to="/careers">Careers</Link>
           <Link to="/contact">Contact Us</Link>
