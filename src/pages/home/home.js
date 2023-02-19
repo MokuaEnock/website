@@ -8,10 +8,17 @@ import {
   FaFacebook,
 } from "react-icons/fa";
 import Header from "../../components/header/header";
+import { useNavigate } from "react-router-dom";
 
 export default function Home() {
+  let redirect = useNavigate();
+
+  function handleSignupClick() {
+    redirect("/signup");
+  }
   return (
     <main id="home-page">
+    
       <nav id="navigation-bar">
         <div id="navigation-container">
           <a href="https://www.instagram.com/">
