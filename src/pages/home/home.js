@@ -8,6 +8,7 @@ import {
   FaFacebook,
 } from "react-icons/fa";
 import Header from "../../components/header/header";
+import Footer from "../../components/footer/Footer";
 import { useNavigate } from "react-router-dom";
 
 export default function Home() {
@@ -18,7 +19,6 @@ export default function Home() {
   }
   return (
     <main id="home-page">
-    
       <nav id="navigation-bar">
         <div id="navigation-container">
           <a href="https://www.instagram.com/">
@@ -48,6 +48,8 @@ export default function Home() {
       </nav>
 
       <Header />
+
+      <Footer />
     </main>
   );
 }
