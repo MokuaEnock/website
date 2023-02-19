@@ -3,6 +3,7 @@ a {
 }
 
 #navigation-bar {
+  margin-top: 4vh;
   width: 100vw;
   height: 4vh;
   background-color: var(--primary-color);
