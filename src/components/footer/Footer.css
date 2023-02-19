@@ -56,8 +56,8 @@ footer {
   border: none;
 }
 
-input:focus{
-    outline: none;
+input:focus {
+  outline: none;
 }
 
 .footer-container {
@@ -77,4 +77,37 @@ input:focus{
 
 .footer-foot * {
   color: var(--tertiary-color);
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-container > span {
+  width: 20%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border: thin solid white;
+}
+
+.footer-container > span > h3 {
+  height: 15%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: var(--tertiary-color);
+  font-weight: lighter;
+}
+.footer-container > span > a {
+  height: 13%;
+  color: var(--secondary-color);
+  text-decoration: underline;
 }
