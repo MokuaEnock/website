@@ -57,9 +57,9 @@ export default function Header(props) {
   }
 
   return (
-    <>
+    <div>
       <Navbar />
       <Head />
-    </>
+    </div>
   );
 }
