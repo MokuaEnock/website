@@ -15,7 +15,6 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-
 }
 
 #navigation-bar a {
@@ -63,4 +62,26 @@
 .social-icons {
   font-size: 2rem;
   color: var(--tertiary-color);
+}
+
+@media (max-width: 768px) {
+  #navigation-bar {
+    width: 100vw;
+    height: 4vh;
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #navigation-container {
+    margin: 0;
+    width: 60%;
+    border: thin solid var(--tertiary-color);
+  }
+
+  #navigation-contact {
+    display: none;
+  }
 }
