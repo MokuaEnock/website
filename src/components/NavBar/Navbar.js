@@ -1,5 +1,14 @@
 import "./Navbar.css";
 
+import {
+  FaInstagram,
+  FaTwitter,
+  FaPhone,
+  FaEnvelope,
+  FaLinkedin,
+  FaFacebook,
+} from "react-icons/fa";
+
 export default function Navbar() {
   return (
     <nav id="navigation-bar">
