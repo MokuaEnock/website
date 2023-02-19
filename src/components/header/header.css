@@ -2,9 +2,14 @@
   width: 100%;
   height: 7vh;
   border-bottom: thin solid var(--primary-color);
-  border-top: thin solid var(--primary-color);
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .header {
+    width: 95vw;
+  }
 }
