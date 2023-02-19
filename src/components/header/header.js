@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
 import "./header.css";
+// import Button from "../button/button";
 
 export default function Header(props) {
   return (
     <header className="header">
       <span className="header-logo">
-        <Link to="/">Home</Link>
+        <Link to="/">Kilimo.Africa</Link>
       </span>
       <span className="header-info">
         <Link to="/services">Services</Link>
@@ -15,6 +16,7 @@ export default function Header(props) {
       </span>
       <span className="header-logs">
         <Link to="login">Log In</Link>
+        {/* <Button text="Log In" /> */}
       </span>
     </header>
   );
