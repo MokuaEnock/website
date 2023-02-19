@@ -1,0 +1,111 @@
+footer {
+  /* border: thin solid var(--primary-color); */
+  height: max-content;
+  width: 100vw;
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-head {
+  height: 5vh;
+  width: 100vw;
+  border: thin solid white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--tertiary-color);
+}
+
+.footer-head > span {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-color);
+}
+.footer-head > form {
+  border: thin solid var(--primary-color);
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: var(--tertiary-color);
+}
+
+.footer-head > form > input {
+  height: 100%;
+  width: 70%;
+  border: none;
+  text-align: center;
+}
+
+.footer-head > form > button {
+  width: 30%;
+  height: 100%;
+  font-size: 1.2rem;
+  background-color: var(--primary-color);
+  color: var(--tertiary-color);
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+.footer-container {
+  width: 80%;
+  height: 40vh;
+}
+
+.footer-foot {
+  height: 4vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.footer-foot * {
+  color: var(--tertiary-color);
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-container > span {
+  width: 20%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.footer-container > span > h3 {
+  height: 15%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: var(--tertiary-color);
+  font-weight: lighter;
+}
+.footer-container > span > a {
+  height: 13%;
+  color: var(--secondary-color);
+  text-decoration: underline;
+}
