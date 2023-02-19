@@ -12,7 +12,7 @@ export default function Footer() {
         </form>
       </div>
       <div className="footer-container">
-        <span className="footer-logo"></span>
+        <span id="footer-logo"></span>
         <span>
           <h3>Services</h3>
           <Link to="/services">Services</Link>
@@ -33,7 +33,7 @@ export default function Footer() {
           <Link to="/events">Events</Link>
         </span>
         <span>
-        <h3></h3>
+          <h3></h3>
           <Link to="/faqs">FAQs</Link>
           <Link to="/careers">Careers</Link>
           <Link to="/contact">Contact Us</Link>
