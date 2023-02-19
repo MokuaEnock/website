@@ -96,7 +96,17 @@ a {
   justify-content: space-between;
 }
 
-.header-info a {
+select {
+  border: none;
+  background-color: var(--secondary-color);
+}
+
+select:focus {
+  outline: none;
+}
+
+.header-info a,
+.header-info select {
   font-size: 1.5rem;
   color: var(--primary-color);
 }
