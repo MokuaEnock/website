@@ -12,7 +12,7 @@ export default function Footer() {
         </form>
       </div>
       <div className="footer-container">
-        <span className="footer-logo"></span>
+        <span id="footer-logo"></span>
         <span>
           <h3>Services</h3>
           <Link to="/services">Services</Link>
