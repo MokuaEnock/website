@@ -133,7 +133,10 @@ input:focus {
     justify-content: center;
   }
 
-  .footer-head span {
+  .footer-container span h3 {
+    justify-content: center;
+  }
+    .footer-head span {
     width: 95%;
   }
   .footer-head form {
