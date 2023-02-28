@@ -1,0 +1,52 @@
+#team {
+  height: max-content;
+  border: thin solid black;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#team > h1 {
+  text-align: center;
+  font-size: 2rem;
+  height: 5vh;
+  color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: thin solid black;
+}
+
+#team > p {
+  text-align: center;
+  height: 20vh;
+  color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: thin solid black;
+}
+
+#team-container {
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  border: thin solid black;
+}
+
+.team-container {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: thin solid black;
+}
