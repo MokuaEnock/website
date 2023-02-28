@@ -30,7 +30,7 @@ export default function Header(props) {
               About Us
             </option>
             <option value="/impact">Our Impact</option>
-            <option value="/products">Team</option>
+            <option value="/team">Team</option>
             <option value="/gallery">Gallery</option>
             <option value="/partners">Partners</option>
           </select>
