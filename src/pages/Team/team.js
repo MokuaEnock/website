@@ -1,6 +1,10 @@
 import "./team.css";
 
 import Button from "../../components/button/button";
+
+import enock from "../../assets/Enock.png";
+import andreen from "../../assets/Andreen.png";
+
 export default function Team() {
   return (
     <main id="team">
@@ -17,7 +21,7 @@ export default function Team() {
 
       <section id="team-containers">
         <div className="team-container">
-          <img src="#" alt="headshot" className="team-container-image" />
+          <img src={andreen} alt="headshot" className="team-container-image" />
           <span className="team-container-info">
             <h3>Andreen Muchiri</h3>
             <p>Co-Founder & CEO</p>
@@ -25,7 +29,7 @@ export default function Team() {
         </div>
 
         <div className="team-container">
-          <img src="#" alt="headshot" className="team-container-image" />
+          <img src={enock} alt="headshot" className="team-container-image" />
           <span className="team-container-info">
             <h3>Enock Mokua</h3>
             <p>Co-Founder & COO</p>

@@ -7,5 +7,14 @@ export default function Home() {
   function handleSignupClick() {
     redirect("/signup");
   }
-  return <main id="home-page">This is the home page</main>;
+
+  function WaitList() {
+    return <form id="waitlist-form">This is the waitlist</form>;
+  }
+  return (
+    <main id="home-page">
+      <p>This is the homepage</p>
+      <WaitList />
+    </main>
+  );
 }
