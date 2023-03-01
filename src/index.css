@@ -15,9 +15,10 @@
 
 body {
   width: 100vw;
-  height: 100vh;
+  height: max-content;
   display: flex;
   justify-content: column;
   align-items: center;
   justify-content: center;
+  background-color: var(--tertiary-color);
 }

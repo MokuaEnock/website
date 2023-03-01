@@ -1,0 +1,75 @@
+#wait-page {
+  min-height: 80vh;
+  width: 100%;
+  border: thin solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--tertiary-color);
+}
+
+#wait-form {
+  width: 50%;
+  border: thin solid black;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#wait-form > * {
+  margin-top: 0.5vh;
+  margin-bottom: 0.5vh;
+}
+
+#wait-page> h1 {
+  text-align: center;
+}
+
+#wait-form > span {
+  width: 80%;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#wait-form > textarea {
+  width: 72%;
+  height: 20vh;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+#wait-form > span > input {
+  text-align: center;
+  height: 80%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#wait-form button {
+  border: thin solid black;
+  width: 80%;
+  height: 5vh;
+  background-color: var(--primary-color);
+  color: var(--tertiary-color);
+}
+
+.wait-icons {
+  size: 2rem;
+  color: var(--primary-color);
+}

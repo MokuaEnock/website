@@ -8,9 +8,8 @@ footer {
   justify-content: center;
 }
 
-
-#footer-logo{
-    border: thin solid white;
+#footer-logo {
+  border: thin solid white;
 }
 
 .footer-head {
@@ -131,13 +130,19 @@ input:focus {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
   }
 
+  .footer-container span h3 {
+    justify-content: center;
+  }
   .footer-head span {
     width: 95%;
   }
   .footer-head form {
     width: 95%;
+    margin-bottom: .2vh;
+
   }
 
   #footer-logo {
@@ -163,6 +168,6 @@ input:focus {
   }
 
   .footer-foot * {
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
 }

@@ -1,9 +1,36 @@
 #home-page {
   width: 100%;
-  min-height: 37vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
 }
 
+#home-page > * {
+  border: thin solid black;
+  width: 100%;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
+#waitlist-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: max-content;
+}
+
+#waitlist-form > h2 {
+  font-size: 2rem;
+  color: var(--primary-color);
+}
+
+#waitlist-form > p {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  width: 70%;
+  height: max-content;
+  color: var(--primary-color);
+}
