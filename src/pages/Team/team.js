@@ -15,10 +15,23 @@ export default function Team() {
         exceptional products and services to our clients.
       </p> */}
 
-      {/* <section id="team-containers">
-        <div className="team-container"></div>
-        <div className="team-container"></div>
-      </section> */}
+      <section id="team-containers">
+        <div className="team-container">
+          <img src="#" alt="headshot" className="team-container-image" />
+          <span className="team-container-info">
+            <h3>Andreen Muchiri</h3>
+            <p>Co-Founder & CEO</p>
+          </span>
+        </div>
+
+        <div className="team-container">
+          <img src="#" alt="headshot" className="team-container-image" />
+          <span className="team-container-info">
+            <h3>Enock Mokua</h3>
+            <p>Co-Founder & COO</p>
+          </span>
+        </div>
+      </section>
     </main>
   );
 }
