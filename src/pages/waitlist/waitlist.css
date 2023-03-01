@@ -6,6 +6,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: var(--tertiary-color);
 }
 
 #wait-form {
@@ -18,18 +19,36 @@
   justify-content: space-between;
 }
 
+#wait-form > * {
+  margin-top: 0.5vh;
+  margin-bottom: 0.5vh;
+}
+
+#wait-page> h1 {
+  text-align: center;
+}
+
 #wait-form > span {
   width: 80%;
   height: 5vh;
-  border: thin solid black;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
 }
 
 #wait-form > textarea {
-  width: 80%;
-  height: 25vh;
+  width: 72%;
+  height: 20vh;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+textarea:focus {
+  outline: none;
 }
 
 #wait-form > span > input {
@@ -48,4 +67,9 @@
   height: 5vh;
   background-color: var(--primary-color);
   color: var(--tertiary-color);
+}
+
+.wait-icons {
+  size: 2rem;
+  color: var(--primary-color);
 }

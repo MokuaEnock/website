@@ -17,17 +17,17 @@ export default function WaitL() {
       </h1>
       <form id="wait-form">
         <span>
-          <FiUser />
+          <FiUser size={32} />
           <input type="text" placeholder="Full name" required />
         </span>
 
         <span>
-          <FiPhone className="wait-icons" />
+          <FiPhone id="wait-icons" size={32} />
           <input type="text" placeholder="Your phone number" required />
         </span>
 
         <span>
-          <FiMail className="wait-icons" />
+          <FiMail className="wait-icons" size={32} />
           <input type="text" placeholder="Enter your E-Mail address" required />
         </span>
         <textarea placeholder="Any additional feedback" />
