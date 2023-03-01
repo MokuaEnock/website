@@ -48,6 +48,14 @@ export default function Header(props) {
           <Link to="/blog">Careers</Link>
           <Link to="/contact">Contact Us</Link>
         </span>
+
+        <div className="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
         <span className="header-logs">
           <Link to="login">Log In</Link>
           {/* <Button text="Log In" /> */}

@@ -103,6 +103,10 @@ select option:hover {
 
 @media (max-width: 768px) {
   .header {
+    /* display: none; */
+  }
+
+  .services-header {
     display: none;
   }
 }
