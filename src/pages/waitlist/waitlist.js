@@ -1,5 +1,7 @@
-// import Button from "../../components/button/button";
 import "./waitlist.css";
+
+import { useState } from "react";
+
 import { FiMail } from "react-icons/fi";
 import { FiPhone } from "react-icons/fi";
 import { FiUser } from "react-icons/fi";
@@ -8,8 +10,11 @@ import Modal from "react-modal";
 Modal.setAppElement("#root");
 
 export default function WaitL() {
+  let [isModalOpen, setIsModalOpen] = useState(false);
+
   function handleJoin(e) {
     e.preventDefault();
+    setIsModalOpen(true);
   }
 
   return (
@@ -37,8 +42,10 @@ export default function WaitL() {
         <button type="submit">
           <p>Join the waitlist</p>
         </button>
-        {/* <Button text="Join the waitlist" onClick={handleJoin} /> */}
       </form>
+      <Modal isOpen={isModalOpen} onRequestClose={() => setIsModalOpen(false)}>
+        <p>Thanks for joining the waitlist successfully.</p>
+      </Modal>
     </main>
   );
 }
