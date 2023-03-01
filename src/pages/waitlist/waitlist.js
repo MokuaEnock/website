@@ -26,24 +26,29 @@ export default function WaitL() {
       <form id="wait-form">
         <span>
           <FiUser size={32} />
-          <input type="text" placeholder="Full name" required />
+          <input type="text" placeholder="Full name" />
         </span>
 
         <span>
           <FiPhone id="wait-icons" size={32} />
-          <input type="text" placeholder="Your phone number" required />
+          <input type="text" placeholder="Your phone number" />
         </span>
 
         <span>
           <FiMail className="wait-icons" size={32} />
-          <input type="text" placeholder="Enter your E-Mail address" required />
+          <input type="text" placeholder="Enter your E-Mail address" />
         </span>
         <textarea placeholder="Any additional feedback" />
         <button type="submit">
           <p>Join the waitlist</p>
         </button>
       </form>
-      <Modal isOpen={isModalOpen} onRequestClose={() => setIsModalOpen(false)}>
+      <Modal
+        isOpen={isModalOpen}
+        onRequestClose={() => setIsModalOpen(false)}
+        className="modal"
+        overlayClassName="overlay"
+      >
         <p>Thanks for joining the waitlist successfully.</p>
       </Modal>
     </main>
