@@ -1,6 +1,6 @@
 #home-page {
   width: 100%;
-  min-height: 37vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,6 +32,5 @@
   margin-bottom: 1vh;
   width: 70%;
   height: max-content;
-  border: thin solid;
   color: var(--primary-color);
 }

@@ -9,6 +9,10 @@ export default function Home() {
     redirect("/signup");
   }
 
+  function handleWaitlist() {
+    redirect("/waitlist");
+  }
+
   function WaitList() {
     return (
       <section id="waitlist-form">
@@ -20,7 +24,7 @@ export default function Home() {
           processing waste, and you'll receive exclusive access to early bird
           pricing and other special offers.
         </p>
-        <Button text="Join Our Waitlist" />
+        <Button text="Join Our Waitlist" onClick={handleWaitlist} />
       </section>
     );
   }

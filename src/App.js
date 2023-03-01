@@ -6,6 +6,7 @@ import Header from "./components/header/header";
 import Footer from "./components/footer/Footer";
 import Services from "./pages/Services/services";
 import Team from "./pages/Team/team";
+import WaitL from "./pages/waitlist/waitlist";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<Services />} />
         <Route path="/team" element={<Team />} />
-        <Route path="" element="" />
+        <Route path="/waitlist" element={<WaitL />} />
         <Route path="" element="" />
         <Route path="" element="" />
       </Routes>
