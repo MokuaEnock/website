@@ -86,7 +86,11 @@ textarea:focus {
   background-color: white;
   border-radius: 4px;
   padding: 20px;
-  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* height: 40vh; */
   width: 30vw;
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
 }
@@ -101,4 +105,41 @@ textarea:focus {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.modal > * {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
+.modal-head {
+  width: 100%;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-color);
+}
+
+.modal-par {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.check-icon {
+  color: var(--primary-color);
+  font-size: 3em;
+}
+
+.modal-button {
+  width: 10vw;
+  height: 4vh;
+  background-color: var(--primary-color);
+  color: var(--tertiary-color);
+  border: thin solid var(--primary-color);
 }

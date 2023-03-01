@@ -4,6 +4,7 @@ import { useState } from "react";
 
 import { FiMail } from "react-icons/fi";
 import { FiPhone } from "react-icons/fi";
+import { FaCheckCircle } from "react-icons/fa";
 import { FiUser } from "react-icons/fi";
 import Modal from "react-modal";
 
@@ -49,7 +50,17 @@ export default function WaitL() {
         className="modal"
         overlayClassName="overlay"
       >
-        <p>Thanks for joining the waitlist successfully.</p>
+        <FaCheckCircle className="check-icon" />
+        <h2 className="modal-head">Congratulations</h2>
+        <p className="modal-par">You are number 4 on the waitlist.</p>
+        <button
+          onClick={() => {
+            setIsModalOpen(false);
+          }}
+          className="modal-button"
+        >
+          Close
+        </button>
       </Modal>
     </main>
   );
