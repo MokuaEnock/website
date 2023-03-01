@@ -20,7 +20,7 @@ export default function Home() {
           processing waste, and you'll receive exclusive access to early bird
           pricing and other special offers.
         </p>
-        <Button />
+        <Button text="Join Our Waitlist" />
       </section>
     );
   }
