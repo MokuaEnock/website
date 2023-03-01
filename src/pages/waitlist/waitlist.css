@@ -9,7 +9,43 @@
 }
 
 #wait-form {
-  width: 100%;
+  width: 50%;
   border: thin solid black;
-  height: 50vh;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#wait-form > span {
+  width: 80%;
+  height: 5vh;
+  border: thin solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#wait-form > textarea {
+  width: 80%;
+  height: 25vh;
+}
+
+#wait-form > span > input {
+  text-align: center;
+  height: 80%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#wait-form button {
+  border: thin solid black;
+  width: 80%;
+  height: 5vh;
+  background-color: var(--primary-color);
+  color: var(--tertiary-color);
 }
