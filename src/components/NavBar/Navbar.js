@@ -28,13 +28,14 @@ export default function Navbar() {
       </div>
 
       <div id="navigation-contact">
-        <span>
-          <FaPhone />
-          <p>+254768371270</p>
+        <span className="contact-cont">
+          <FaPhone size={24} />
+          <p className="con-icons">+254768371270</p>
         </span>
-        <span>
-          <FaEnvelope />
-          <p>contact@kilimo.africa</p>
+
+        <span className="contact-cont">
+          <FaEnvelope size={20} />
+          <p className="con-icons">contact@kilimo.africa</p>
         </span>
       </div>
     </nav>

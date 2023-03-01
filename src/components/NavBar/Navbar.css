@@ -50,13 +50,27 @@ a {
 }
 
 #navigation-contact > * * {
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: var(--tertiary-color);
 }
 
 .social-icons {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: var(--tertiary-color);
+}
+
+.contact-cont {
+  width: max-content;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact-cont p {
+  margin-left: 1.5vw;
+  margin-right: 1.5vw;
 }
 
 @media (max-width: 768px) {
