@@ -143,3 +143,15 @@ textarea:focus {
   color: var(--tertiary-color);
   border: thin solid var(--primary-color);
 }
+
+@media only screen and (max-width: 768px) {
+  /* Styles for phone and tablet devices */
+
+  .modal {
+    width: 80%;
+  }
+
+  .modal-button {
+    width: 40vw;
+  }
+}
