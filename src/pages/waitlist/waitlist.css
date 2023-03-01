@@ -1,18 +1,17 @@
 #wait-page {
   min-height: 80vh;
   width: 100%;
-  border: thin solid black;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: var(--tertiary-color);
+  /* background-color: var(--tertiary-color); */
 }
 
 #wait-form {
   width: 50%;
-  border: thin solid black;
   height: max-content;
+  background-color: var(--tertiary-color);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,7 +23,7 @@
   margin-bottom: 0.5vh;
 }
 
-#wait-page> h1 {
+#wait-page > h1 {
   text-align: center;
 }
 
@@ -32,8 +31,13 @@
   width: 80%;
   height: 5vh;
   display: flex;
+  background-color: var(--tertiary-color);
   align-items: center;
   justify-content: space-evenly;
+}
+
+#wait-form > span input {
+  border: none;
 }
 
 #wait-form > textarea {
@@ -62,9 +66,9 @@ textarea:focus {
 }
 
 #wait-form button {
-  border: thin solid black;
   width: 80%;
   height: 5vh;
+  border: thin solid var(--primary-color);
   background-color: var(--primary-color);
   color: var(--tertiary-color);
 }

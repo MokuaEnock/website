@@ -3,6 +3,9 @@ import "./waitlist.css";
 import { FiMail } from "react-icons/fi";
 import { FiPhone } from "react-icons/fi";
 import { FiUser } from "react-icons/fi";
+import Modal from "react-modal";
+
+Modal.setAppElement("#root");
 
 export default function WaitL() {
   function handleJoin(e) {
@@ -13,7 +16,7 @@ export default function WaitL() {
     <main id="wait-page" onSubmit={handleJoin}>
       <h1>
         Join the waitlist for <br />
-        Kijani Africa
+        Kilimo Africa
       </h1>
       <form id="wait-form">
         <span>

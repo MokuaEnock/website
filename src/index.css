@@ -20,5 +20,5 @@ body {
   justify-content: column;
   align-items: center;
   justify-content: center;
-  background-color: var(--tertiary-color);
+  /* background-color: var(--tertiary-color); */
 }
