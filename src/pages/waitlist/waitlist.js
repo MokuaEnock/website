@@ -1,5 +1,8 @@
-import Button from "../../components/button/button";
+// import Button from "../../components/button/button";
 import "./waitlist.css";
+import { FiMail } from "react-icons/fi";
+import { FiPhone } from "react-icons/fi";
+import { FiUser } from "react-icons/fi";
 
 export default function WaitL() {
   function handleJoin(e) {
@@ -7,21 +10,24 @@ export default function WaitL() {
   }
 
   return (
-    <main id="wait-page">
+    <main id="wait-page" onSubmit={handleJoin}>
       <h1>
         Join the waitlist for <br />
         Kijani Africa
       </h1>
       <form id="wait-form">
         <span>
-          <input type="text" placeholder="Enter your first name" required />
+          <FiUser />
+          <input type="text" placeholder="Full name" required />
         </span>
 
         <span>
-          <input type="text" placeholder="Enter your last name" required />
+          <FiPhone className="wait-icons" />
+          <input type="text" placeholder="Your phone number" required />
         </span>
 
         <span>
+          <FiMail className="wait-icons" />
           <input type="text" placeholder="Enter your E-Mail address" required />
         </span>
         <textarea placeholder="Any additional feedback" />
