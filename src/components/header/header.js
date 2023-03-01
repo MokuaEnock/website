@@ -15,6 +15,7 @@ export default function Header(props) {
         <span className="header-logo">
           <Link to="/">Kilimo.Africa</Link>
         </span>
+        
         <span className="header-info">
           <select className="services-header" onChange={handleSelectChange}>
             <option value="" disabled selected>

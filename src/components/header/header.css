@@ -101,12 +101,45 @@ select option:hover {
   justify-content: space-evenly;
 }
 
+.burger {
+  display: none;
+}
+
 @media (max-width: 768px) {
-  .header {
-    /* display: none; */
+  .burger {
+    width: 4vw;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .burger > * {
+    width: 100%;
+    height: 10%;
+    border-radius: 3vw;
+    background-color: var(--primary-color);
+    /* border: thick solid var(--primary-color); */
   }
 
-  .services-header {
+  .header {
+    height: 8vw;
+    width: 95%;
+  }
+
+  .header-logo > a {
+    font-size: 1.5rem;
+  }
+
+  .header-info {
     display: none;
+  }
+
+  .header-logs {
+    display: none;
+  }
+
+  .burger {
+    width: 8%;
   }
 }
