@@ -9,9 +9,11 @@
 }
 
 #team > h1 {
-  text-align: center;
+  text-align: left;
   font-size: 2rem;
-  height: 5vh;
+  width: 45%;
+  line-height: 2.3rem;
+  height: max-content;
   color: var(--primary-color);
   display: flex;
   flex-direction: column;
@@ -22,7 +24,7 @@
 
 #team > p {
   text-align: center;
-  height: 20vh;
+  height: max-content;
   color: var(--primary-color);
   display: flex;
   flex-direction: column;
@@ -31,8 +33,8 @@
   border: thin solid black;
 }
 
-#team-container {
-  height: 30vh;
+#team-containers {
+  height: 50vh;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -42,7 +44,7 @@
 }
 
 .team-container {
-  width: 45%;
+  width: 40%;
   height: 100%;
   display: flex;
   flex-direction: column;

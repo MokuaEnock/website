@@ -4,17 +4,21 @@ import Button from "../../components/button/button";
 export default function Team() {
   return (
     <main id="team">
-      <h1>Meet the Team</h1>
-      <p>
+      <h1>
+        We bring a wealth of skills and experience from a wide range of
+        backgrounds.
+      </h1>
+      {/* <p>
         Kijani Africa was founded by Andreen Muchiri and Enock Mokua with a
         shared vision to create innovative solutions that solve real-world
         problems. Our team may be small, but we are passionate about delivering
         exceptional products and services to our clients.
-      </p>
+      </p> */}
 
-      <section id="team-containers">
+      {/* <section id="team-containers">
         <div className="team-container"></div>
-      </section>
+        <div className="team-container"></div>
+      </section> */}
     </main>
   );
 }
