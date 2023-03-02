@@ -113,13 +113,13 @@ select option:hover {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    cursor: pointer;
   }
   .burger > * {
     width: 100%;
     height: 10%;
     border-radius: 3vw;
     background-color: var(--primary-color);
-    /* border: thick solid var(--primary-color); */
   }
 
   .header {

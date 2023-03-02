@@ -15,7 +15,7 @@ export default function Header(props) {
         <span className="header-logo">
           <Link to="/">Kilimo.Africa</Link>
         </span>
-        
+
         <span className="header-info">
           <select className="services-header" onChange={handleSelectChange}>
             <option value="" disabled selected>
@@ -59,7 +59,6 @@ export default function Header(props) {
 
         <span className="header-logs">
           <Link to="login">Log In</Link>
-          {/* <Button text="Log In" /> */}
         </span>
       </header>
     );

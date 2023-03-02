@@ -13,6 +13,24 @@ export default function Home() {
     redirect("/waitlist");
   }
 
+  function Survey() {
+    return (
+      <section>
+        <iframe
+          src="https://docs.google.com/forms/d/e/1FAIpQLSex8Ot1IJE51X1yWsTXTmVDNxI3lXuOkT8akZxKOIFIAyHvFg/viewform?embedded=true"
+          width="640"
+          height="1383"
+          frameborder="0"
+          marginheight="0"
+          marginwidth="0"
+          title="Survey Form"
+        >
+          Loading…
+        </iframe>
+      </section>
+    );
+  }
+
   function WaitList() {
     return (
       <section id="waitlist-form">
@@ -32,6 +50,8 @@ export default function Home() {
     <main id="home-page">
       <p>This is the homepage</p>
       <WaitList />
+      <Survey />
+
     </main>
   );
 }
